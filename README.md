@@ -31,19 +31,19 @@ This worker runs on the `backend-operations` task queue and provides DB activiti
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Copy environment variables
 cp .env.example .env
 
 # Start in development mode
-pnpm dev
+npm dev
 
 # Build for production
-pnpm build
+npm build
 
 # Start production worker
-pnpm start
+npm start
 ```
 
 ## Environment Variables
@@ -99,8 +99,8 @@ src/
 
 | Script | Description |
 |--------|-------------|
-| `pnpm dev` | Start worker in development mode with hot reload |
-| `pnpm build` | Build for production |
-| `pnpm start` | Start production worker |
-| `pnpm lint` | Run ESLint |
-| `pnpm typecheck` | Run TypeScript type checking |
+| `npm dev` | Start worker in development mode with hot reload |
+| `npm build` | Build for production |
+| `npm start` | Start production worker |
+| `npm lint` | Run ESLint |
+| `npm typecheck` | Run TypeScript type checking |
