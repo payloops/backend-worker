@@ -1,5 +1,5 @@
 // Initialize OpenTelemetry FIRST, before any other imports
-import { initTelemetry, logger } from '@payloops/processor-core/observability';
+import { initTelemetry, logger } from '@payloops/observability';
 initTelemetry(process.env.OTEL_SERVICE_NAME || 'loop-worker-backend', '0.0.1');
 
 import { tfn } from '@astami/temporal-functions/worker';

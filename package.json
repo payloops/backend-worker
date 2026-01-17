@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@astami/temporal-functions": "^0.2.1",
-    "@payloops/processor-core": "^0.0.4",
+    "@payloops/observability": "^0.0.1",
     "@opentelemetry/api": "^1.9.0",
     "@temporalio/activity": "^1.11.7",
     "@temporalio/worker": "^1.11.7",

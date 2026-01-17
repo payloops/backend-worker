@@ -4,7 +4,7 @@ import crypto from 'crypto';
 import { db } from '../lib/db';
 import { orders, transactions, processorConfigs, webhookEvents, merchants } from '../lib/schema';
 import { decrypt } from '../lib/crypto';
-import { logger } from '@payloops/processor-core/observability';
+import { logger } from '@payloops/observability';
 
 // =============================================================================
 // Types
